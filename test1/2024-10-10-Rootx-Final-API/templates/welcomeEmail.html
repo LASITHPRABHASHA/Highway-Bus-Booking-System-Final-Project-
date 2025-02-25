@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Email</title>
+    <style>
+        /* General Styles for the email body */
+        body {
+            font-family: Arial, sans-serif;  /* Set default font */
+            margin: 0;  /* Remove default margin */
+            padding: 0;  /* Remove default padding */
+            background-color: #f4f4f4;  /* Light gray background for email body */
+        }
+        /* Container for the entire email content */
+        .email-container {
+            max-width: 600px;  /* Max width of the email for desktop screens */
+            margin: 0 auto;  /* Center the email container */
+            background-color: #ffffff;  /* White background for the email content */
+            padding: 20px;  /* Padding inside the email content */
+            border-radius: 10px;  /* Rounded corners */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  /* Light shadow for a 3D effect */
+        }
+        /* Header section with welcome message */
+        .header {
+            background-color: #FFA959;  /* Branding color for the header */
+            color: white;  /* White text color for better contrast */
+            text-align: center;  /* Center the text */
+            padding: 20px;  /* Padding inside the header */
+            border-radius: 10px 10px 0 0;  /* Rounded corners only at the top */
+        }
+        .header h1 {
+            margin: 0;  /* Remove default margin from the header */
+        }
+        /* General content styling inside the email */
+        .content {
+            padding: 20px;  /* Add padding around the content */
+            color: #333;  /* Darker text for readability */
+        }
+        /* Special discount section with highlighted background */
+        .highlight {
+            background-color: #FFF1E6;  /* Light orange background for highlighting the discount section */
+            padding: 10px;  /* Padding around the text */
+            border-radius: 5px;  /* Slightly rounded corners */
+            color: #FFA959;  /* Use branding color for the text */
+            text-align: center;  /* Center-align the text */
+            font-weight: bold;  /* Make the text bold */
+        }
+        /* Style for buttons (like 'Discover More', 'Join Now') */
+        .button {
+            display: inline-block;  /* Make it an inline-block for layout control */
+            background-color: #FFA959;  /* Branding color for buttons */
+            color: white;  /* White text on buttons */
+            padding: 10px 20px;  /* Add padding to buttons */
+            text-align: center;  /* Center-align text inside buttons */
+            text-decoration: none;  /* Remove default underline from links */
+            border-radius: 5px;  /* Rounded corners for buttons */
+            margin: 10px 0;  /* Space between buttons and other content */
+        }
+        /* Footer section at the bottom of the email */
+        .footer {
+            text-align: center;  /* Center-align the footer content */
+            padding: 20px;  /* Padding inside the footer */
+            font-size: 12px;  /* Smaller text size for footer */
+            color: #777;  /* Gray text for footer */
+        }
+    </style>
+</head>
+<body>
+    <!-- Container for the entire email -->
+    <div class="email-container">
+        <!-- Header section -->
+        <div class="header">
+            <h1>Welcome to Rootx!</h1>  <!-- Welcome message in the header -->
+        </div>
+
+        <!-- Main content of the email -->
+        <div class="content">
+            <p>Thank you for choosing Rootx for your passenger service needs!</p>
+            <p>We're thrilled to have you on board and are committed to providing you with the best travel experience possible.</p>
+
+            <!-- Highlighted section for the discount code -->
+            <div class="highlight">
+                🌟 As a special welcome gift, use the code <strong>WELCOME10</strong> to get a 10% discount on your first ride!
+            </div>
+
+            <!-- Section promoting the service features -->
+            <h2>Rootx Service</h2>
+            <p>Check out our easy booking process, real-time tracking, and 24/7 customer support!</p>
+            <a href="#" class="button">Discover More</a>  <!-- Button to discover more features -->
+
+            <!-- Section promoting the community -->
+            <h2>Rootx Community</h2>
+            <p>Follow us on social media for the latest updates, tips, and offers!</p>
+            <a href="#" class="button">Join Now</a>  <!-- Button to join the community -->
+        </div>
+
+        <!-- Footer section with a link to the website -->
+        <div class="footer">
+            <a href="#" class="button">Visit our Website</a>  <!-- Button to visit the website -->
+            <p>&copy; 2024 Rootx. All rights reserved.</p>  <!-- Footer copyright text -->
+        </div>
+    </div>
+</body>
+</html>
